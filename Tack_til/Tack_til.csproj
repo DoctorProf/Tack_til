@@ -19,7 +19,6 @@
   <ItemGroup>
     <Resource Include="Images\Black.png" />
     <Resource Include="Images\Empty.png" />
-    <Resource Include="Images\logo.png" />
     <Resource Include="Images\point.png" />
     <Resource Include="Images\White.png" />
   </ItemGroup>

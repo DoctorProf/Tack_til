@@ -7,9 +7,9 @@
         xmlns:c="clr-namespace:Tack_til.Commands"
         xmlns:vm="clr-namespace:Tack_til.ViewModels"
         xmlns:ce ="clr-namespace:Tack_til.Converters"
-        Icon="../../Images/logo.png"
+        Icon="../../Images/Black.png"
         mc:Ignorable="d"
-        Title="Tack_til">
+        Title="Так Тиль" MinHeight="550" MinWidth="500" Height="550" Width="500">
 
     <Window.Resources>
         <c:FieldClickCommand x:Key="fcc"/>
@@ -51,8 +51,8 @@
             </ItemsControl>
         </DataTemplate>
     </Window.Resources>
-    <Grid Background = "#2f2e2a"  DataContext="{Binding Source={StaticResource gvm}}">
-        <Label Foreground ="White" FontSize="24" Content="{Binding Move}"/>
+    <Grid Background = "DarkGreen"  DataContext="{Binding Source={StaticResource gvm}}">
+        <Label Foreground ="White" FontSize="24" Content="{Binding Move}" HorizontalAlignment="Center"/>
         <Border Background="#FF2C1D0D" BorderBrush="Black" BorderThickness="2" Width="400" Height="400">
             <Border.Style>
                 <Style>
